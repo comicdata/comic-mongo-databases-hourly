@@ -2,7 +2,7 @@
 
 mongoexport -d comic -c comic-base -o comicbase.json
 mongoexport -d comic -c comic-chapter -o comicchapter.json
-mongodump -d comic
+#mongodump -d comic
 
 git pull origin master
 git add .
